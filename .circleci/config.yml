@@ -69,25 +69,25 @@ workflows:
             branches:
               only:
                 - master
-      - monitor-production:
-          filters:
-            branches:
-              ignore:
-                - gh-pages
-      - monitor-staging:
-          filters:
-            branches:
-              ignore:
-                - gh-pages
-  monitor:
-    triggers:
-      - schedule:
-          # TODO: when actually in production, run in every minute
-          cron: "0 0 * * *"
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - monitor-production
-      - monitor-staging
+      # - monitor-production:
+      #     filters:
+      #       branches:
+      #         ignore:
+      #           - gh-pages
+      # - monitor-staging:
+      #     filters:
+      #       branches:
+      #         ignore:
+      #           - gh-pages
+  # monitor:
+  #   triggers:
+  #     - schedule:
+  #         # TODO: when actually in production, run in every minute
+  #         cron: "0 0 * * *"
+  #         filters:
+  #           branches:
+  #             only:
+  #               - master
+  #   jobs:
+  #     - monitor-production
+  #     - monitor-staging
