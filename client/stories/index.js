@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react'
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 
+import '../ui/index.css'
 import SubmitShaForm from '../components/SubmitShaForm/View'
 
 class Container extends PureComponent {
