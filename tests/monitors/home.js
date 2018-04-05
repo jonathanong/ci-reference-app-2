@@ -24,7 +24,7 @@ exports.monitors = [
     id: domain,
     parameters: {
       url: domain,
-      selector: '#root a'
+      selector: 'input'
     },
 
     monitor,
