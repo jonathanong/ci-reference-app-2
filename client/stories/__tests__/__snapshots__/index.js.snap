@@ -17,9 +17,11 @@ exports[`Storyshots SubmitShaForm 0 shas 1`] = `
   </button>
   <table>
     <thead>
-      <th>
-        Shas
-      </th>
+      <tr>
+        <th>
+          Shas
+        </th>
+      </tr>
     </thead>
     <tbody />
   </table>
@@ -43,9 +45,11 @@ exports[`Storyshots SubmitShaForm 1 shas 1`] = `
   </button>
   <table>
     <thead>
-      <th>
-        Shas
-      </th>
+      <tr>
+        <th>
+          Shas
+        </th>
+      </tr>
     </thead>
     <tbody>
       <tr>
@@ -75,9 +79,11 @@ exports[`Storyshots SubmitShaForm 2 shas 1`] = `
   </button>
   <table>
     <thead>
-      <th>
-        Shas
-      </th>
+      <tr>
+        <th>
+          Shas
+        </th>
+      </tr>
     </thead>
     <tbody>
       <tr>

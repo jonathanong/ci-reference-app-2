@@ -8,8 +8,8 @@ import SubmitShaForm from './View.js'
 
 class SubmitShaFormContainer extends PureComponent {
   static propTypes = {
-    shas: PropTypes.array.isRequired,
-    createSha: PropTypes.func.isRequired
+    shas: PropTypes.array,
+    createSha: PropTypes.func
   }
 
   render () {

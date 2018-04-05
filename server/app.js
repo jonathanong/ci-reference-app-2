@@ -37,7 +37,7 @@ app.use(require('koa-compress')())
 app.use(require('koa-conditional-get')())
 app.use(require('koa-etag')())
 
-app.use(require('koa-favicon')(path.resolve(__dirname, '../../public/favicon.ico')))
+app.use(require('koa-favicon')(path.resolve(__dirname, '../public/favicon.ico')))
 
 app.use(require('koa-json')({
   pretty: env !== 'production'

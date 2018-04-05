@@ -35,7 +35,7 @@ export default class SubmitShaForm extends PureComponent {
 
         <table>
           <thead>
-            <th>Shas</th>
+            <tr><th>Shas</th></tr>
           </thead>
           <tbody>{
             this.props.shas.map((x, i) => <tr key={i}><td>{x}</td></tr>)
