@@ -1,11 +1,11 @@
 
-import { getSha as getShaFromApi } from '../../api-sdk/shas'
+import { createSha as createShaFromApi } from '../../api-sdk/shas'
 import onError from '../../on-error'
 import { ADD } from './actions'
 
-export const getSha = (dispatch) => async (text) => {
+export const createSha = (dispatch) => async (text) => {
   try {
-    const result = await getShaFromApi(text)
+    const result = await createShaFromApi(text)
     dispatch({
       type: ADD,
       payload: result

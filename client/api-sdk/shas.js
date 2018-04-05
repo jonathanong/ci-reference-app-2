@@ -1,5 +1,5 @@
 
-export const getSha = async (text) => {
+export const createSha = async (text) => {
   const response = await fetch(`/api/v1/shas`, {
     method: 'POST',
     headers: {
