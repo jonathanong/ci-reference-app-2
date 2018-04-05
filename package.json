@@ -1,9 +1,9 @@
 {
-  "name": "ims",
+  "name": "ci-reference-app",
   "version": "1.0.0",
-  "description": "An image management system for your static assets",
+  "description": "A referenee app for my CI workshop",
   "scripts": {
-    "start": "WEBPACK_DEV_SERVER=1 node bin/serve.js",
+    "start": "WEBPACK_DEV_SERVER=1 node server",
     "eslint": "eslint . .storybook --cache --cache-location node_modules/.cache/eslint --ignore-path .gitignore",
     "stylelint": "stylelint '**/*.css' --cache --cache-location node_modules/.cache/stylelint --ignore-path .gitignore",
     "test:jsdom": "jest --config jest.jsdom.json",
@@ -84,6 +84,7 @@
     "stylelint": "^9.1.3",
     "stylelint-config-css-modules": "^1.2.0",
     "stylelint-config-standard": "^18.2.0",
+    "supertest": "^3.0.0",
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.1",
