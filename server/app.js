@@ -5,7 +5,7 @@ const mount = require('koa-mount')
 const path = require('path')
 const Koa = require('koa')
 
-const onError = require('../lib/on-error')
+const onError = require('./on-error')
 
 const app = module.exports = new Koa()
 const env = process.env.NODE_ENV || 'development'

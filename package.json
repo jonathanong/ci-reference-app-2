@@ -8,9 +8,9 @@
     "stylelint": "stylelint '**/*.css' --cache --cache-location node_modules/.cache/stylelint --ignore-path .gitignore",
     "test:jsdom": "jest --config jest.jsdom.json",
     "test:server": "jest --config jest.server.json",
-    "storybook": "start-storybook -p 3692",
+    "storybook": "start-storybook -p 3222",
     "build-storybook": "build-storybook",
-    "dev-server": "WEBPACK_DEV_SERVER=1 npx webpack-dev-server --config webpack.development.js --hot --port 3691",
+    "dev-server": "WEBPACK_DEV_SERVER=1 npx webpack-dev-server --config webpack.development.js --hot --port 3221",
     "build": "npx webpack --config webpack.production.js --hide-modules",
     "heroku-postbuild": "npm run build && npm run build-storybook"
   },

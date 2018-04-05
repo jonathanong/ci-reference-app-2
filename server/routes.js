@@ -1,5 +1,5 @@
 
-const { createHash } = require('./shas')
+const { createSha } = require('./shas')
 const app = require('./app')
 
 app.use(async (ctx, next) => {
@@ -11,7 +11,7 @@ app.use(async (ctx, next) => {
   if (ctx.method === 'POST' && ctx.path === '/api/v1/shas') {
     ctx.assert(ctx.request.is('json', 415, 'Only JSON is accepted.'))
     const { text } = await ctx.request.json()
-    ctx.body = createHash(text)
+    ctx.body = createSha(text)
     return
   }
 
