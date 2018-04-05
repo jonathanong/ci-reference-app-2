@@ -12,6 +12,7 @@ export const createSha = (dispatch) => async (text) => {
     })
     return result
   } catch (err) {
+    alert(`Error creating sha for ${text}.`)
     onError(err)
   }
 }
