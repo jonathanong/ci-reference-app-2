@@ -1,6 +1,9 @@
 
 # CI Reference App
 
+[![CircleCI](https://circleci.com/gh/jonathanong/ci-reference-app/tree/master.svg?style=svg)](https://circleci.com/gh/jonathanong/ci-reference-app/tree/master)
+[![codecov](https://codecov.io/gh/jonathanong/ci-reference-app/branch/master/graph/badge.svg)](https://codecov.io/gh/jonathanong/ci-reference-app)
+
 This is a reference app for my CI workshop.
 This is a simplified version of my personal reference app: [IMS](https://github.com/jonathanong/ims)
 
