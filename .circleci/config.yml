@@ -17,7 +17,7 @@ jobs:
       - run: npx codecov && rm -rf codecov
       - run:
           name: serve
-          command: node bin/serve.js
+          command: node server
           background: true
       # TODO: actually poll for the server to start
       - run: sleep 3
