@@ -1,0 +1,15 @@
+package-lock.json
+package-lock.json.*
+yarn.lock
+
+build/
+coverage/
+dist/
+node_modules/
+storybook-static/
+
+*.log
+*.log.*
+
+.DS_Store
+*.gz

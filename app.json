@@ -1,0 +1,21 @@
+{
+  "name": "ci-reference-app",
+  "env": {
+    "NODE_ENV": {
+      "value": "staging",
+      "required": true
+    },
+    "HEROKU_REVIEW_APP": {
+      "value": "1",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}

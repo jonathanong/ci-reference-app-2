@@ -1,0 +1,19 @@
+{
+  "cacheDirectory": "node_modules/.cache/jest",
+  "collectCoverageFrom": [
+    "**/*.js"
+  ],
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "/__tests__/",
+    "/tests/",
+    "/test/",
+    "/vendor/"
+  ],
+  "roots": [
+    "bin",
+    "isomorphic",
+    "server"
+  ],
+  "testEnvironment": "node"
+}
