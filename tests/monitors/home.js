@@ -8,12 +8,9 @@ async function monitor ({ parameters }) {
     headless: false
   })
   const page = await browser.newPage()
-  await page.goto(parameters.url, {
-    timeout: 5000
-  })
-  await page.waitForSelector(parameters.selector, {
-    timeout: 5000
-  })
+
+  // do stuff
+
   await page.close()
   await browser.close()
 }
