@@ -6,7 +6,7 @@
     "start": "WEBPACK_DEV_SERVER=1 node server",
     "storybook": "start-storybook -p 3222",
     "build-storybook": "build-storybook",
-    "dev-server": "WEBPACK_DEV_SERVER=1 npx webpack-dev-server --config webpack.development.js --hot --port 3221",
+    "dev-server": "WEBPACK_DEV_SERVER=1 npx webpack-dev-server --config webpack.development.js --hot --port 3221 --allowed-hosts localhost:3220",
     "build": "npx webpack --config webpack.production.js --hide-modules",
     "heroku-postbuild": "npm run build && npm run build-storybook"
   },
